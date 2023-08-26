@@ -1,0 +1,21 @@
+html,
+body {
+    font-family: 'Codec Pro', sans-serif;
+}
+
+section {
+    padding: 0;
+    height: 768px;
+    width: 100%;
+}
+
+h1.title {
+    font-size: 84px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h3.title {
+    font-size: 28px;
+    font-weight: 700;
+}
