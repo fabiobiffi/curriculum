@@ -27,8 +27,8 @@ export default {
 
   background-color: #0f1728;
   .profile-picture {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     border-radius: 1000px;
     overflow: hidden;
     background-image: url(@/assets/profile_picture.jpeg);
