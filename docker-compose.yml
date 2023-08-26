@@ -3,6 +3,7 @@ version: "3.9"
 services:
   
   curriculm:
+    platform: linux/amd64
     image: curriculum:latest
     container_name: curriculum
     build: 
@@ -12,4 +13,4 @@ services:
       - "8080:8080" 
     volumes:
       - .:/curriculum
-    entrypoint: npm run dev -- --port 8080 --host
+    entrypoint: sh -c "npm i && npm run dev -- --port 8080 --host"

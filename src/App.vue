@@ -1,7 +1,4 @@
 <template>
-
-
-
   <Hero></Hero>
 </template>
 
