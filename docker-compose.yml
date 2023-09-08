@@ -10,7 +10,7 @@ services:
       dockerfile: ci/Dockerfile
       context: .
     ports:
-      - "8080:8080" 
+      - "80:80" 
     volumes:
       - .:/curriculum
-    entrypoint: sh -c "npm i && npm run dev -- --port 8080 --host"
+    entrypoint: sh -c "npm i && npm run dev -- --port 80 --host"
