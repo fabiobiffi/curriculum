@@ -8,6 +8,10 @@
   <Backend></Backend>
   <DevOps></DevOps>
   <GitHub></GitHub>
+  <LinkedIn></LinkedIn>
+  <PhoneContact></PhoneContact>
+  <EmailContact></EmailContact>
+  <Footer></Footer>
 </template>
 
 <script lang="js">
@@ -23,6 +27,10 @@ import Frontend from './components/Frontend.vue';
 import Backend from './components/Backend.vue';
 import DevOps from './components/DevOps.vue';
 import GitHub from './components/GitHub.vue';
+import LinkedIn from './components/LinkedIn.vue';
+import PhoneContact from './components/PhoneContact.vue';
+import EmailContact from './components/EmailContact.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
@@ -34,7 +42,11 @@ export default {
     Frontend,
     Backend,
     DevOps,
-    GitHub
+    GitHub,
+    LinkedIn,
+    PhoneContact,
+    EmailContact,
+    Footer
   }
 }
 </script>
