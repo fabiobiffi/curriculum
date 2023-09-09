@@ -7,6 +7,7 @@
   <Frontend></Frontend>
   <Backend></Backend>
   <DevOps></DevOps>
+  <GitHub></GitHub>
 </template>
 
 <script lang="js">
@@ -21,6 +22,7 @@ import HardSkills from './components/HardSkills.vue';
 import Frontend from './components/Frontend.vue';
 import Backend from './components/Backend.vue';
 import DevOps from './components/DevOps.vue';
+import GitHub from './components/GitHub.vue';
 
 export default {
   components: {
@@ -31,7 +33,8 @@ export default {
     HardSkills,
     Frontend,
     Backend,
-    DevOps
+    DevOps,
+    GitHub
   }
 }
 </script>
