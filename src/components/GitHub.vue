@@ -1,6 +1,6 @@
 <template>
+  <section>
   <div class="github">
-    <section>
       <img :src="moon" alt="Moon Logo" width="600" class="moon" />
       <img :src="saturn" alt="Saturn Logo" width="600" class="saturn" />
       <div class="container-fluid h-100">
@@ -17,8 +17,8 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
-  </div>
 </template>
 
 <script>
@@ -42,7 +42,12 @@ export default {
 .github {
   background-color: #101728;
   position: relative;
+  height: 100vh;
   overflow: hidden;
+}
+
+section {
+  padding: 0 !important;
 }
 
 .github-logo, a {
