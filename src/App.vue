@@ -3,6 +3,9 @@
   <AboutMe></AboutMe>
   <Camarasoft></Camarasoft>
   <InspiringSoftware></InspiringSoftware>
+  <HardSkills></HardSkills>
+  <Frontend></Frontend>
+  <Backend></Backend>
 </template>
 
 <script lang="js">
@@ -13,13 +16,19 @@ import Hero from './components/Hero.vue';
 import AboutMe from './components/AboutMe.vue';
 import Camarasoft from './components/Camarasoft.vue';
 import InspiringSoftware from './components/InspiringSoftware.vue';
+import HardSkills from './components/HardSkills.vue';
+import Frontend from './components/Frontend.vue';
+import Backend from './components/Backend.vue';
 
 export default {
   components: {
     Hero,
     AboutMe,
     Camarasoft,
-    InspiringSoftware
+    InspiringSoftware,
+    HardSkills,
+    Frontend,
+    Backend
   }
 }
 </script>
