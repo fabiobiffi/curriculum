@@ -1,0 +1,57 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    section {
+        padding: 64px 20px !important;
+    }
+
+    h1.title {
+        font-size: 58px;
+    }
+
+    .profile-picture {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .circle {
+        width: 100px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+    }
+
+    .inspiring-software section, .footer section {
+        min-height: 100vh;
+        height: unset;
+    }
+
+    .frontend img {
+        width: 200px;
+    }
+
+    .backend img {
+        width: 250px;
+    }
+
+    .dev-ops>section>div>div:nth-child(2)>div:nth-child(2)>p {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) {}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) {}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {}
