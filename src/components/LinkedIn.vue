@@ -7,7 +7,7 @@
             <img :src="linkedinLogo" alt="LinkedIn Logo" width="200" />
             <a
               class="mt-4 text-white"
-              href="linkedin.com/in/fabio-biffi/"
+              href="https://linkedin.com/in/fabio-biffi/"
               style="font-size: 20px"
               target="_blank"
               >linkedin.com/in/fabio-biffi/</a

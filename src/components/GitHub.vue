@@ -6,13 +6,13 @@
       <div class="container-fluid h-100">
         <div class="row h-100">
           <div class="col d-flex align-items-center justify-content-center flex-column">
-            <img :src="githubLogo" alt="Github Logo" width="200" />
+            <img :src="githubLogo" alt="Github Logo" width="200" class="github-logo" />
             <a
               class="mt-4 text-white"
               href="https://github.com/fabiobiffi"
               style="font-size: 20px"
               target="_blank"
-              >https://github.com/fabiobiffi</a
+              >github.com/fabiobiffi</a
             >
           </div>
         </div>
@@ -43,6 +43,10 @@ export default {
   background-color: #101728;
   position: relative;
   overflow: hidden;
+}
+
+.github-logo, a {
+  z-index: 999;
 }
 
 .moon,

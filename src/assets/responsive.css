@@ -3,7 +3,7 @@
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 1366px) {
 
 
     section {
@@ -25,22 +25,59 @@
         font-size: 18px !important;
     }
 
-    .inspiring-software section, .footer section {
+    .camarasoft section,
+    .inspiring-software section,
+    .footer section {
         min-height: 100vh;
         height: unset;
     }
 
     .frontend img {
+        margin-top: 40px;
         width: 200px;
     }
 
     .backend img {
+        margin-top: 40px;
         width: 250px;
+    }
+
+    .dev-ops img {
+        width: 200px;
     }
 
     .dev-ops>section>div>div:nth-child(2)>div:nth-child(2)>p {
         text-align: center;
         margin-top: 40px;
+    }
+
+    .github .saturn {
+        top: -225px !important;
+        left: -211px !important;
+    }
+
+    .github .moon {
+        bottom: -440px !important;
+        right: -295px !important;
+    }
+
+    .phone-contact img, .email-contact img {
+        width: 150px !important;
+    }
+
+    .phone-contact a, .email-contact a {
+        font-size: 20px !important;
+    }
+
+    .footer img {
+        width: 300px !important;
+        border-radius: 10px !important;
+        margin-bottom: 40px;
+    }
+
+    .credits {
+        margin-top: 40px !important;
+        font-size: 12px !important;
     }
 }
 

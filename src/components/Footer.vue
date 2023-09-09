@@ -13,8 +13,8 @@
             <p>🇬🇧 English (B2)</p>
             <p>🚘 Driving license</p>
           </div>
-          <div class="col-12 h-25 text-white d-flex justify-content-center align-items-end">
-            <p>2023 @fabiobiffi.com | all rights reserved</p>
+          <div class="col-12 h-25 text-white d-flex justify-content-center align-items-end text-center">
+            <p class="credits">2023 Fabio Biffi | all rights reserved</p>
           </div>
         </div>
       </div>
