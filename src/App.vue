@@ -6,6 +6,7 @@
   <HardSkills></HardSkills>
   <Frontend></Frontend>
   <Backend></Backend>
+  <DevOps></DevOps>
 </template>
 
 <script lang="js">
@@ -19,6 +20,7 @@ import InspiringSoftware from './components/InspiringSoftware.vue';
 import HardSkills from './components/HardSkills.vue';
 import Frontend from './components/Frontend.vue';
 import Backend from './components/Backend.vue';
+import DevOps from './components/DevOps.vue';
 
 export default {
   components: {
@@ -28,7 +30,8 @@ export default {
     InspiringSoftware,
     HardSkills,
     Frontend,
-    Backend
+    Backend,
+    DevOps
   }
 }
 </script>
