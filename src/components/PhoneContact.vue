@@ -1,5 +1,5 @@
 <template>
-  <div class="phone-contact">
+  <div class="phone-contact" id="contact" ref="contact">
     <section class="px-0">
       <div class="container-fluid h-100">
         <div class="row h-100">
@@ -34,7 +34,7 @@ section {
   height: 50vh;
 }
 .phone-contact {
-    background: linear-gradient(90deg, #C1FF72 50%, #00ED64 50%);
+    background: linear-gradient(90deg, #050a14 50%, #00e39a 50%);
 }
 
 a {

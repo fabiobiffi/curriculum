@@ -5,8 +5,8 @@
             <div class="row h-100">
                 <div class="col d-flex align-items-center justify-content-center flex-column">
                     <h1 class="title">
-                        <span style="color: #01081D;">Hard</span>
-                        <span style="color: #737373;"> Skills</span>
+                        <span style="color: white;">Hard</span>
+                        <span style="color: #00e3a9;"> Skills</span>
                     </h1>
                 </div>
             </div>
@@ -27,7 +27,8 @@
       height: 50vh !important;
   }
   .hard-skills {
-    background-color: #D9D9D9;
+    background-color: #050a14;
+    color: #bcbcbc;
   }
   </style>
   

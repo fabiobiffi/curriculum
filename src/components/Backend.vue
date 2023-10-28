@@ -40,6 +40,6 @@ export default {
 
 <style lang="scss" scoped>
 .backend {
-    background: linear-gradient(90deg, #FFFFFF 50%, #42D392 50%);
+    background: linear-gradient(90deg, #00e39a 50%, #050a14 50%);
 }
 </style>

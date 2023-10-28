@@ -34,6 +34,6 @@ export default {
 
 <style lang="scss" scoped>
 .linkedin {
-  background-color: #0168CF;
+  background-color: #050a14;
 }
 </style>

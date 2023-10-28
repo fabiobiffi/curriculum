@@ -49,7 +49,7 @@
               <div class="row">
                 <div class="col"></div>
                 <div class="col">
-                    <div class="circle text-white" style="background: #384d54">
+                    <div class="circle" style="background: #0db7ed">
                         Docker
                     </div>
                 </div>
@@ -71,7 +71,8 @@ export default {
 
 <style lang="scss" scoped>
 .camarasoft {
-  background-color: #0d94ba;
+  background-color: #050a14;
+  color: #bcbcbc;
 }
 
 .circle {
@@ -83,5 +84,6 @@ export default {
     justify-content: center;
     font-size: 24px;
     font-weight: bold;
+    color: #050a14;
 }
 </style>

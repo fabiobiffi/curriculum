@@ -4,7 +4,7 @@
       <div class="container-fluid h-100">
         <div class="row">
           <div class="col">
-            <h1 class="title text-center">DevOps</h1>
+            <h1 class="title text-center">Dev<span style="color: #00e39a;">Ops</span></h1>
           </div>
         </div>
         <div class="row" style="height: calc(100% - 151px)">
@@ -40,6 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .dev-ops {
-  background-color: #e85e00;
+  background-color: #050a14;
+  color: #a9a9a9;
 }
 </style>

@@ -11,12 +11,16 @@
     }
 
     h1.title {
-        font-size: 58px;
+        font-size: 48px;
     }
 
-    .profile-picture {
-        width: 250px !important;
-        height: 250px !important;
+    .hero ol li {
+        line-height: 50px;
+    }
+
+    .hero ol li span,
+    .hero ol li a {
+        margin-left: 20px !important;
     }
 
     .circle {
@@ -61,11 +65,13 @@
         right: -295px !important;
     }
 
-    .phone-contact img, .email-contact img {
+    .phone-contact img,
+    .email-contact img {
         width: 150px !important;
     }
 
-    .phone-contact a, .email-contact a {
+    .phone-contact a,
+    .email-contact a {
         font-size: 20px !important;
     }
 

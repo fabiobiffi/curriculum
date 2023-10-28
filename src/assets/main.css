@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Codec Pro', sans-serif;
+    font-family: 'Source Code Pro', monospace !important;
 }
 
 #app {

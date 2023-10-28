@@ -7,7 +7,7 @@
             <h1 class="title" style="color: #a22982">
               Inspiring<span style="color: #c9609f"> Software</span>
             </h1>
-            <p style="color: #737373">Sep 2019 - 2022</p>
+            <p style="color: #d9d9d9">Sep 2019 - 2022</p>
           </div>
         </div>
         <div class="row" style="height: calc(100% - 151px)">
@@ -16,14 +16,14 @@
               <div class="row">
                 <div class="col">
                   <!-- Angular circle -->
-                  <div class="circle text-light" style="background: #DD0D31">Angular</div>
+                  <div class="circle" style="background: #DD0D31">Angular</div>
                 </div>
               </div>
               <div class="row">
                 <div class="col"></div>
                 <div class="col">
                   <!-- Python circle -->
-                  <div class="circle" style="background: #4584B6; color: #FFDE57;">Python</div>
+                  <div class="circle" style="background: #4584B6;">Python</div>
                 </div>
               </div>
               <div class="row">
@@ -63,7 +63,8 @@ export default {
 
 <style lang="scss" scoped>
 .inspiring-software {
-  background-color: #c1ff72;
+  background-color: #050a14;
+  color: #bcbcbc;
 }
 
 .circle {
@@ -75,5 +76,6 @@ export default {
   justify-content: center;
   font-size: 24px;
   font-weight: bold;
+  color: #050a14;
 }
 </style>

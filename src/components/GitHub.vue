@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .github {
-  background-color: #101728;
+  background-color: #050a14;
   position: relative;
   height: 100vh;
   overflow: hidden;

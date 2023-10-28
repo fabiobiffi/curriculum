@@ -37,7 +37,8 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  background: #101728;
+  background: #050a14;
+  color: #a9a9a9;
 }
 
 .summary p{

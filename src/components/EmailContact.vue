@@ -38,7 +38,7 @@ section {
   height: 50vh;
 }
 .phone-contact {
-  background: linear-gradient(90deg, #25e5ff 50%, #a5fcff 50%);
+  background: linear-gradient(90deg, #00e39a 50%, #050a14 50%);
 }
 
 a {
