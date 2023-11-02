@@ -25,6 +25,7 @@ npm run dev
 ### Compile and Minify for Production
 
 ```sh
+docker exec -it curriculum sh
 npm run build
 ```
 

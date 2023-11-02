@@ -15,7 +15,14 @@ const router = createRouter({
     {
       path: '/blog',
       name: 'blog',
-      component: () => import('../views/BlogView.vue')
+      component: () => import('../views/blog/BlogView.vue'),
+      // children: [
+      //   {
+      //     path: ':slug',
+      //     name: 'post',
+      //     component: () => import('../views/blog/PostView.vue')
+      //  }
+      // ]
     }
   ]
 })
